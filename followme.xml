@@ -76,8 +76,8 @@
             <static_friction> 1.80 </static_friction>
             <dynamic_friction> 1.70 </dynamic_friction>
             <rolling_friction> 0.10 </rolling_friction>
-            <spring_coeff unit="LBS/FT"> 26000 </spring_coeff>
-            <damping_coeff unit="LBS/FT/SEC"> 1040 </damping_coeff>
+            <spring_coeff unit="LBS/FT"> 8000 </spring_coeff>
+            <damping_coeff unit="LBS/FT/SEC"> 1000 </damping_coeff>
             <max_steer unit="DEG"> 40 </max_steer>
             <brake_group> LEFT </brake_group>
             <retractable>0</retractable>
@@ -91,8 +91,8 @@
             <static_friction> 1.80 </static_friction>
             <dynamic_friction> 1.70 </dynamic_friction>
             <rolling_friction> 0.10 </rolling_friction>
-            <spring_coeff unit="LBS/FT"> 26000 </spring_coeff>
-            <damping_coeff unit="LBS/FT/SEC"> 1040 </damping_coeff>
+            <spring_coeff unit="LBS/FT"> 8000 </spring_coeff>
+            <damping_coeff unit="LBS/FT/SEC"> 1000 </damping_coeff>
             <max_steer unit="DEG"> 40 </max_steer>
             <brake_group> RIGHT </brake_group>
             <retractable>0</retractable>
@@ -106,8 +106,8 @@
             <static_friction> 1.80 </static_friction>
             <dynamic_friction> 1.70 </dynamic_friction>
             <rolling_friction> 0.10 </rolling_friction>
-            <spring_coeff unit="LBS/FT"> 26000 </spring_coeff>
-            <damping_coeff unit="LBS/FT/SEC"> 1040 </damping_coeff>
+            <spring_coeff unit="LBS/FT"> 8000 </spring_coeff>
+            <damping_coeff unit="LBS/FT/SEC"> 1000 </damping_coeff>
             <brake_group> LEFT </brake_group>
             <retractable>0</retractable>
         </contact>
@@ -120,8 +120,8 @@
             <static_friction> 1.80 </static_friction>
             <dynamic_friction> 1.70 </dynamic_friction>
             <rolling_friction> 0.10 </rolling_friction>
-            <spring_coeff unit="LBS/FT"> 26000 </spring_coeff>
-            <damping_coeff unit="LBS/FT/SEC"> 1040 </damping_coeff>
+            <spring_coeff unit="LBS/FT"> 8000 </spring_coeff>
+            <damping_coeff unit="LBS/FT/SEC"> 1000 </damping_coeff>
             <brake_group> RIGHT </brake_group>
             <retractable>0</retractable>
         </contact>
@@ -132,8 +132,8 @@
 	  <y> -0.69 </y>
 	  <z> 1.568 </z>
 	</location>
-	<spring_coeff unit="LBS/FT"> 18000 </spring_coeff>
-	<damping_coeff unit="LBS/FT/SEC"> 1000 </damping_coeff>
+	<spring_coeff unit="LBS/FT"> 1000 </spring_coeff>
+	<damping_coeff unit="LBS/FT/SEC"> 200 </damping_coeff>
       </contact>
       <contact type="STRUCTURE" name="MIDDLE-RIGHT">
 	<location unit="M">
@@ -141,8 +141,8 @@
 	  <y> 0.69 </y>
 	  <z> 1.568 </z>
 	</location>
-	<spring_coeff unit="LBS/FT"> 18000 </spring_coeff>
-	<damping_coeff unit="LBS/FT/SEC"> 1000 </damping_coeff>
+	<spring_coeff unit="LBS/FT"> 1000 </spring_coeff>
+	<damping_coeff unit="LBS/FT/SEC"> 200 </damping_coeff>
       </contact>
       
       <contact type="STRUCTURE" name="BACK-LEFT">
@@ -151,8 +151,8 @@
 	  <y> -0.60 </y>
 	  <z> 1.659 </z>
 	</location>
-	<spring_coeff unit="LBS/FT"> 18000 </spring_coeff>
-	<damping_coeff unit="LBS/FT/SEC"> 1000 </damping_coeff>
+	<spring_coeff unit="LBS/FT"> 1000 </spring_coeff>
+	<damping_coeff unit="LBS/FT/SEC"> 200 </damping_coeff>
       </contact>
       <contact type="STRUCTURE" name="BACK-RIGHT">
 	<location unit="M">
@@ -160,8 +160,8 @@
 	  <y> 0.60 </y>
 	  <z> 1.659 </z>
 	</location>
-	<spring_coeff unit="LBS/FT"> 18000 </spring_coeff>
-	<damping_coeff unit="LBS/FT/SEC"> 1000 </damping_coeff>
+	<spring_coeff unit="LBS/FT"> 1000 </spring_coeff>
+	<damping_coeff unit="LBS/FT/SEC"> 200 </damping_coeff>
       </contact>
       
       <contact type="STRUCTURE" name="LEFT">
@@ -170,8 +170,8 @@
 	  <y> -0.70 </y>
 	  <z> 0.837 </z>
 	</location>
-	<spring_coeff unit="LBS/FT"> 18000 </spring_coeff>
-	<damping_coeff unit="LBS/FT/SEC"> 1000 </damping_coeff>
+	<spring_coeff unit="LBS/FT"> 1000 </spring_coeff>
+	<damping_coeff unit="LBS/FT/SEC"> 200 </damping_coeff>
       </contact>
       <contact type="STRUCTURE" name="RIGHT">
 	<location unit="M">
@@ -179,7 +179,7 @@
 	  <y> -0.70 </y>
 	  <z> 0.837 </z>
 	</location>
-	<spring_coeff unit="LBS/FT"> 18000 </spring_coeff>
+	<spring_coeff unit="LBS/FT"> 1000 </spring_coeff>
 	<damping_coeff unit="LBS/FT/SEC"> 1000 </damping_coeff>
       </contact>
       
